@@ -1,0 +1,83 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	background: rgba(70, 70, 180, 0.522);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p{
+	text-align: justify;
+}
+
+.container1 {
+	float: right;
+	width: 83%;
+	/* background: rgba(255, 0, 0, 0.209); */
+}
+
+.container2 {
+	background: rgb(131, 127, 127);
+	float: left;
+	width: 15%;
+	height: 93%;
+	position: absolute;
+	top: 22px;
+	left: 12px;
+	z-index: 1;
+}
+
+.rectangle {
+    width: 200px; /* largura do retângulo */
+    height: 7px; /* altura do retângulo */
+    background-color: #ccc; /* cor de fundo cinza */
+    position: relative; /* para posicionar o elemento interno */
+	margin-top: 6px;
+}
+
+.green {
+    width: 80%; /* largura da faixa verde (70% da largura total) */
+    height: 100%; /* altura igual à altura do retângulo */
+    background-color: #4CAF50; /* cor de fundo verde */
+    position: absolute; /* posição absoluta em relação ao retângulo pai */
+    left: 0; /* alinhar a faixa verde à esquerda */
+    top: 0; /* alinhar a faixa verde no topo */
+}
+
+
+.fontConfigs {
+	white-space: pre-line;
+	color: white;
+  }
+
+.circulo {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	border: 3px solid white;
+	background-color: transparent;
+	margin-top: 20px;
+	margin-left: 67px;
+}
+
+.centerAlign{
+	text-align: center;
+}
+
+.rightAlign{
+	float: right;
+}
+
+#span1 {
+	float: left;
+}
+
+#span2 {
+	float: center;
+}

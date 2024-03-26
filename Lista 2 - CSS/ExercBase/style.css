@@ -1,0 +1,40 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	width: 760px;
+	margin: auto;
+	background: rgb(0, 0, 0);
+}
+
+article {
+	width: 760px;
+	margin: auto;
+	background: yellow;
+}
+
+nav {
+	background: red;
+	height: 50px;
+}
+
+header {
+	background: blue;
+	height: 150px;
+	clear: both;
+}
+
+footer {
+	background: orange;
+	height: 66px;
+	clear: both;
+}
+
+aside {
+	float: right;
+	width: 280px;
+	background: darkgreen;
+}
