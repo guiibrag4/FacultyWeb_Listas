@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex02</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<!-- 2) Crie uma página com 4 links, cada um representando o nome de uma cor, 
+que, utilizando o evento onmouseover altere a cor do plano de fundo para cor 
+correspondente. -->
+    <h1> Passe o mouse por cima do link para que a sua cor seja colocada na página.</h1>
+    <section onmouseout="changeBackgroundColorOnMouseOut('white')">
+        <a href="#" onmouseover="changeBackgroundColorOnMouseOver('red')" >Vermelho</a>
+        <a href="#" onmouseover="changeBackgroundColorOnMouseOver('yellow')">Amarelo</a>
+        <a href="#" onmouseover="changeBackgroundColorOnMouseOver('purple')">Roxo</a>
+        <a href="#" onmouseover="changeBackgroundColorOnMouseOver('green')">Verde</a>
+    </section>
+</body>
+</html>

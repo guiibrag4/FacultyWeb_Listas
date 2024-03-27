@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgba(108, 114, 120, 0.72);
+}
+
+nav {
+	display: flex;
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+	padding: ;
+	border: 2px solid blue;
+}
+
+a {
+	margin: 7px;
+	display: flex;
+	align-items: center;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.link1 {
+	font-size: 2em;
+	font-family: fantasy;
+	color: #0420fc;
+}
+
+.link2 {
+	color: red;
+}
+
+.link3 {
+	color: rgb(79, 205, 79);
+}
+
+.link4 {
+	color: yellow;
+}
+
+.link5 {
+	color: #0923e8;
+}

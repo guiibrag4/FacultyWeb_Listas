@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex01 - Formulário interativo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<!-- 1) Crie um formulário simples com 4 botões que, ao clicar em cada um, altere a 
+cor do plano de fundo da página para vermelho, verde, azul e amarelo, 
+respectivamente. -->
+    <h1>Formulário interativo</h1>
+    <p>clique em qualquer botão para alterar a cor exterior da página</p>
+    <form action="/action_page.php" target="_blank" autocomplete="on">
+        <input type="button" value="Vermelho" onclick= "changeBackgroundColor ('red')">
+        <input type="button" value="Verde" onclick= "changeBackgroundColor ('green')">
+        <input type="button" value="Azul" onclick= "changeBackgroundColor ('blue')">
+        <input type="button" value="Amarelo" onclick= "changeBackgroundColor ('yellow')">
+    </form>
+</body>
+</html>
