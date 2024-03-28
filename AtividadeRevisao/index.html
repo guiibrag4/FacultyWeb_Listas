@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<!-- 
-Dicas
-
-Pegue o valor que o usuário digitou utilizando o getElementById. Altere a cor do botão do usuário pelo javascript, se acertar o botão fica verde e se errar o botão deverá ficar vermelho.
-
-document.getElementById("idBotao").style.backgroundColor = "green";
-
--->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini-game</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
     <section>
-        <h1 id="h1">Jogo do valor</h1>
+        <h1>Jogo do valor</h1>
         <hr>
-        <h1 id="h1Acertou">Acertoou</h1>
-        <h1 id="h1MandouBem">Mandou bem demaais!!</h1>
-        <button type="button" id="button1">Jogar</button>
-        <button type="button" id="button2">Começar novo jogo</button>
+        <h2 id="Resultado"></h2>
+        <h2 id="Indicador"></h2>
+
+        <p id="errosConsecutivos"> <span>Vc possui 10 tentativas. </span>Erros: 0</p>
+        <input type="number" id="Input" min="0" max="100">
+        <button type="button" id="jogarButton">Adivinhar
+        </button>
+        <button type="button" id="começarButton">Começar novo jogo</button>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
-
