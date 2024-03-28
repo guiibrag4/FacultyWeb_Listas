@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	border: 3px solid blue;
+}
+
+section {
+	border: 5px solid red;
+	height: 100vh;
+}
+
+#h1Acertou {
+	border: 1px solid green;
+	padding: 10px;
+}
+
+#h1MandouBem {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+button {
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+#button1 {
+	border: 1px solid black;
+	padding: 10px;
+	height: 50px;
+	background-color: #c5c5c5;
+}
+
+#button2 {
+	border: 1px solid rgb(0, 0, 248);
+	height: 50px;
+	width: 140px;
+	background-color: #b1ddef;
+}
