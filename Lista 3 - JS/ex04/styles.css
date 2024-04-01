@@ -6,8 +6,25 @@
 
 body {
     font-family: Arial, sans-serif;
+    margin: 10px;
 }
 
-#paragrafo {
-    display: block;
+p {
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(26, 192, 201);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }

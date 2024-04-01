@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex09</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <input type="text" id="word1" placeholder="Digite a primeira palavra">
+        <input type="text" id="word2" placeholder="Digite a segunda palavra">
+        <input type="text" id="result" disabled>
+        <button type="button" onclick="intercalate()">Intercalar</button>
+    </form>
+
+    <script>
+        // q: O que o lenght faz?
+        // a: Retorna o tamanho de uma string.
+
+        // q: O que essa função faz passo a passo?
+        // a: Recebe duas palavras, cria uma variável para armazenar a palavra intercalada, e duas variáveis para percorrer as palavras. Enquanto i for menor que o tamanho da primeira palavra ou j for menor que o tamanho da segunda palavra, a função adiciona a letra da palavra 1 na variável intercalated e incrementa i, e faz o mesmo com a palavra 2 e j.
+        
+        function intercalate() {
+            let word1 = document.getElementById('word1').value;
+            let word2 = document.getElementById('word2').value;
+            let result = document.getElementById('result');
+            let intercalated = '';
+            let i = 0;
+            let j = 0;
+
+            while (i < word1.length || j < word2.length) {
+                if (i < word1.length) {
+                    intercalated += word1[i];
+                    i++;
+                }
+                if (j < word2.length) {
+                    intercalated += word2[j];
+                    j++;
+                }
+            }
+            result.value = intercalated;
+        }
+    </script>
+</body>
+</html>

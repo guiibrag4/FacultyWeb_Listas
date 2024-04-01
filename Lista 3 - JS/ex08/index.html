@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex08</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Crie um formulário de cadastro de cliente. O formulário deve conter os campos Nome (text), Pessoa (Física/Jurídica – radio), CPF (text), CNPJ (text), data de nascimento, endereço (text), cep (text), telefone (text), email. O formulário deve ativar o campo CPF apenas se o radio de pessoa física estiver ativo e o campo de CNPJ no caso de pessoa jurídica. O campo data de nascimento também só deve estar ativo no caso de pessoa física ser selecionado e deve aceitar que somente números sejam digitados. O campo CEP também só deve aceitar 
+número. -->
+    <form action="ex08.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <span>Pessoa: </span>
+        <input type="radio" name="person" id="personFisica" value="fisica" required>
+        <label for="personFisica">Física</label>
+        <input type="radio" name="person" id="personJuridica" value="jurídica" required>
+        <label for="personJuridica">Jurídica</label>
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" required>
+        <br>
+        <label for="cnpj">CNPJ:</label>
+        <input type="text" name="cnpj" id="cnpj" required>
+        <br>
+        <label for="birth">Data de Nascimento:</label>
+        <input type="date" name="birth" id="birth" required>
+        <br>
+        <label for="address">Endereço:</label>
+        <input type="text" name="address" id="address" required>
+        <br>
+        <label for="cep">CEP:</label>
+        <input type="" name="cep" id="cep" required>
+        <br>
+        <label for="phone">Telefone:</label>
+        <input type="tel" name="phone" id="phone" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

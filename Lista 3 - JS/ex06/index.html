@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex06</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1> Palíndromo </h1>
+    <!-- Esse atributo action define a URL de domínio para a qual os dados do formulário devem ser enviados quando o formulário é submetido. Ps: não da para enviar diretamente a um email, por exemplo, mas a servidores que irão processar isso, usando linguagens como python, node.js, php  -->
+    <form action="" method="get" id="form">
+        <label for="palavra">Digite uma palavra para saber se é um palíndromo:</label>
+        <input type="text" id="palavra" name="palavra" required>
+        <button type="submit" onclick="validacao(event)">Enviar</button>
+    </form>
+<script src="script.js"> </script>
+</body>
+</html>
