@@ -1,0 +1,19 @@
+{
+  "name": "exercicio-sala",
+  "version": "20.12.0",
+  "description": "\"Um exercício da sala, aprendendo node\"",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Guilherme",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  }
+}

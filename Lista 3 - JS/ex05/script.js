@@ -1,5 +1,4 @@
 /* 
-
 Entendendendo a função
 
 A função validacao(event) é chamada quando o formulário é submetido. Ela pega os valores dos campos de senha e confirmação de senha e verifica se são iguais. Se não forem, exibe um alerta e previne o envio do formulário. Se forem iguais, a função verifica se a senha tem entre 6 e 10 caracteres. Se não tiver, exibe um alerta e previne o envio do formulário. Além disso, esse 'submit' é adicionado ao formulário, para que a função seja chamada quando o formulário for submetido e o event seja passado como parâmetro. 
