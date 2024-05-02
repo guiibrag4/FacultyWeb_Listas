@@ -32,7 +32,7 @@ app.get("/contato", (req, res) => {
 });
 
 app.get("/sobre", (req, res) => {
-  res.render(__dirname + "/view/sobre.html");
+  res.render(__dirname + "/view/empresa-sobre.html");
 });
 
 //Inicia um servidor express e escuta as conexões na porta 3000, usado 2 parâmetros. O primeiro é a porta e o segundo é uma função de callback (retorna o console.log)
