@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-game</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Jogo da adivinhação</h1>
+        <hr>
+        <h2 id="Resultado"></h2>
+        <h2 id="Indicador"></h2>
+        <p id="errosConsecutivos"> <span> Vc possui 10 tentativas. </span>Erros: 0</p>
+        <div id="minhaDiv">
+            <select name="escolha" id="escolha">
+                <option value="par">par</option>
+                <option value="impar">impar</option>
+            </select>
+            <input type="number" id="Input" min="0" max="100">
+        </div>
+        <button type="button" id="jogarButton">Adivinhar</button>
+        <button type="button" id="começarButton">Começar novo jogo</button>
+    </section>
+    <script src="../script.js"></script>
+</body>
+
+</html>
